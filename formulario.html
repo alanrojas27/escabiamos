@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Escabiamos!</h1>
+        <nav class="header__navbar">
+            <ul>
+                <a href="./index.html"><li>Inicio</li></a>
+                <a href="./tienda.html"><li>Tienda</li></a>
+                <a href="beneficios.html"><li>Beneficios</li></a>
+            </ul>
+        </nav>
+        </header>
+
+
+    <main class="main">
+        <form action="">
+            <fieldset>
+                <legend><h2>Informacion Personal</h2></legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="name" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="name" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresa tu mail" required>
+                </div>
+                <br>
+                <br>
+                <h4>Que bebidas son tus favoritas?</h4>
+                <br>
+                <div>Bebidas alcoholicas</div>
+                <input type="radio" name="bebida" value="mas vale">
+                <div>Bebidas sin alcohol</div>
+                <input type="radio" name="bebida" value="ni a palos">
+                <br>
+                <br>
+                <h4>Selecciona tu zona</h4>
+                <select name="Zona" required>
+                    <option value="">Selecciona un elemento</option>
+                    <option value="n">Norte</option>
+                    <option value="ne">Noreste</option>
+                    <option value="e">Este</option>
+                    <option value="se">Sudeste</option>
+                    <option value="s">Sur</option>
+                    <option value="so">Sudoeste</option>
+                    <option value="o">Oeste</option>
+                    <option value="no">Noroeste</option>
+                </select>
+                <br>
+                <br>
+                
+                <input type="submit" value="Enviar Datos">
+                <input type="reset" value="Limpiar Casillas">
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer class="footer">
+        <ul class="footer__ul">
+            <li><a href="formulario.html"> Contactanos</a></li> <a href="./nosotros.html"><li>Quienes Somos?</li></a> <li> Derechos Reservados</li>
+        </ul>
+        <p>Somos tu mejor opcion</p>
+    </footer>
+</body>
+
+
+</html>

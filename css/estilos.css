@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/**HEADER**/
+
+.header{
+    background-size: cover;
+    background-image: url("../Imagenes/birrafondo.jfif");
+    background-color: darkgoldenrod;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    text-align: justify;
+    text-transform: uppercase;
+    color: brown;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/*NAVbar*/
+.header__navbar ul{
+    padding: 2rem;
+    list-style-type: none;
+    text-align: end;
+    text-shadow: chartreuse;
+    box-shadow: chocolate;
+    text-justify: inter-ideograph;
+}
+
+.header__navbar li{
+    display: inline-block;
+    ;
+}
+.header__navbar a{
+    text-decoration: none;
+    color: rgb(22, 19, 19);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(174, 232, 236);
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.tamanioimagen{
+    height: 200px;
+    width: 200px;
+}
+
+/*BODY*/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*MAIN*/
+.main{
+    background-color: rgb(235, 178, 110);
+    text-align: center;
+
+}
+.main img{
+    height: 200px;
+    width: 200px;
+}
+
+
+.main__div{
+    padding: 2rem;
+    font-size: medium;
+    line-height: 1.2rem;
+    justify-content: center;
+
+
+    display: flex;
+    justify-content: center;
+
+}
+.main__div--1{
+    text-align: center;
+    border-style: outset;
+}
+
+.main__div--2{
+    text-align: center;
+    border-style: outset;
+}
+
+.main__div--3{
+    text-align: center;
+    border-style: outset;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+
+}
+
+.footer__ul{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__ul li{
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
