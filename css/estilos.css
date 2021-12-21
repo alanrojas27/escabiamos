@@ -42,10 +42,9 @@
     color: rgb(22, 19, 19);
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.2rem;
     background-color: rgb(174, 232, 236);
     padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .tamanioimagen{
@@ -123,4 +122,103 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+/*GRID*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header ;
+
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    height: 100vh;
+}
+
+
+.grids{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "main main aside"
+    "footer footer footer";
+}
+
+aside{
+    grid-area: aside;
+}
+
+.aside{
+    background-color: rgb(235, 178, 110);
+    text-align: center;
+    border-style: solid;
+}
+
+
+/*media queries*/
+@media (max-width: 748px){
+.querie{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grids{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "aside aside aside"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
 }
