@@ -175,7 +175,7 @@ aside{
 
 
 /*media queries*/
-@media (max-width: 748px){
+@media only screen and (max-width: 748px){
 .querie{
     display: flex;
     flex-direction: column;
@@ -219,6 +219,13 @@ footer{
     grid-area: footer;
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+}
 
+li{
+    width: 0.1rem;
+}
 
 }
