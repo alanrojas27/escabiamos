@@ -21,6 +21,12 @@
     color: brown;
     font-size: 2rem;
     padding: 1rem;
+    
+}
+
+.logo{
+    display: flex;
+
 }
 
 /*NAVbar*/
@@ -55,12 +61,14 @@
 /*BODY*/
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 /*MAIN*/
 .main{
     background-color: rgb(235, 178, 110);
     text-align: center;
+    background: linear-gradient(175deg, rgba(250,131,12,1) 0%, rgba(236,187,40,1) 35%, rgba(255,183,0,1) 100%);
 
 }
 .main img{
@@ -83,26 +91,39 @@ body{
 .main__div--1{
     text-align: center;
     border-style: outset;
+    transition: all 50ms ease-in-out;
+}
+
+.main__div--1:hover{
+    transform: scale(1.02);
 }
 
 .main__div--2{
     text-align: center;
     border-style: outset;
+    transition: all 50ms ease-in-out;
+}
+
+.main__div--2:hover{
+    transform: scale(1.02);
 }
 
 .main__div--3{
     text-align: center;
     border-style: outset;
+    transition: all 50ms ease-in-out;
 }
 
-
+.main__div--3:hover{
+    transform: scale(1.02);
+}
 
 /*FOOTER*/
 
 .footer{
     background-color: black;
     color: blanchedalmond;
-
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(30,30,34,1) 35%, rgba(88,90,91,1) 100%);
 }
 
 .footer__ul{
@@ -148,7 +169,7 @@ main{
 
 footer{
     grid-area: footer;
-    height: 100vh;
+    
 }
 
 
