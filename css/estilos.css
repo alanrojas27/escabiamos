@@ -58,6 +58,267 @@
     width: 200px;
 }
 
+.header .navbar {
+    background-color: transparent !important;
+  }
+/*BODY*/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+/*MAIN*/
+.main{
+    background-color: rgb(235, 178, 110);
+    padding-left: 3rem;
+    background: linear-gradient(175deg, rgba(250,131,12,1) 0%, rgba(236,187,40,1) 35%, rgba(255,183,0,1) 100%);
+    height: 100vh;
+}
+.main img{
+    height: 80vh;
+
+}
+
+
+.main__div{
+    padding: 2rem;
+    font-size: medium;
+    line-height: 1.2rem;
+    justify-content: center;
+
+
+    display: flex;
+    justify-content: center;
+
+}
+.main__div--1{
+    text-align: center;
+    border-style: outset;
+    transition: all 50ms ease-in-out;
+}
+
+.main__div--1:hover{
+    transform: scale(1.02);
+}
+
+.main__div--2{
+    text-align: center;
+    border-style: outset;
+    transition: all 50ms ease-in-out;
+}
+
+.main__div--2:hover{
+    transform: scale(1.02);
+}
+
+.main__div--3{
+    text-align: center;
+    border-style: outset;
+    transition: all 50ms ease-in-out;
+}
+
+.main__div--3:hover{
+    transform: scale(1.02);
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(30,30,34,1) 35%, rgba(88,90,91,1) 100%);
+    margin-top: rem;
+}
+
+.footer__ul{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__ul li{
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*GRID*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header ;
+
+}
+
+main{
+    grid-area: main;
+    height: 400px;
+}
+
+footer{
+    grid-area: footer;
+
+}
+
+
+.grids{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "main main aside"
+    "footer footer footer";
+}
+
+aside{
+    grid-area: aside;
+}
+
+.aside{
+    background-color: rgb(235, 178, 110);
+    text-align: center;
+    border-style: solid;
+}
+
+/* tamaño carousel*/
+.tamaniocarousel{
+
+}
+/*media queries*/
+@media only screen and (max-width: 748px){
+.querie{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grids{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "aside aside aside"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    width: 0.1rem;
+}
+
+}
+
+@media (max-width: 1200px){
+   *HEADER*
+
+.header{
+    background-size: cover;
+    background-image: url("../Imagenes/birrafondo.jfif");
+    background-color: darkgoldenrod;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    text-align: justify;
+    text-transform: uppercase;
+    color: brown;
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
+
+.logo{
+    display: flex;
+
+}
+
+/*NAVbar*/
+.header__navbar ul{
+    padding: 2rem;
+    list-style-type: none;
+    text-align: end;
+    text-shadow: chartreuse;
+    box-shadow: chocolate;
+    text-justify: inter-ideograph;
+}
+
+.header__navbar li{
+    display: inline-block;
+    ;
+}
+.header__navbar a{
+    text-decoration: none;
+    color: rgb(22, 19, 19);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(174, 232, 236);
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.tamanioimagen{
+    height: 200px;
+    width: 200px;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+  }
 /*BODY*/
 body{
     font-family: 'Roboto Condensed', sans-serif;
@@ -194,59 +455,10 @@ aside{
     border-style: solid;
 }
 
-
-/*media queries*/
-@media only screen and (max-width: 748px){
-.querie{
-    display: flex;
-    flex-direction: column;
+/*tamaño carousel*/
+.tamaniocarousel{
+    padding-left: 30rem;
+    padding-right: 30rem;
 }
-
-header{
-    display: flex;
-    flex-direction: column;
-}
-
-li{
-    padding: 2px;
-    display: flex;
-    flex-direction: row;
-}
-
-.grids{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    display: grid;
-    grid-template-areas:
-    "header header header"
-    "main main main"
-    "aside aside aside"
-    "footer footer footer";
-}
-
-header{
-    grid-area: header;
-}
-
-main{
-    grid-area: main;
-}
-
-aside{
-    grid-area: aside;
-}
-
-footer{
-    grid-area: footer;
-}
-
-ul{
-    display: flex;
-    flex-direction: column;
-}
-
-li{
-    width: 0.1rem;
-}
-
+ 
 }
