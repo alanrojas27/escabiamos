@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-bs/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,37 +18,72 @@
             <div><img src="./imagenes/cervezahead.png" alt="logo" style="width: 60px;"></div>
             <h1>Escabiamos!</h1>
         </div>
-        <div><nav class="header__navbar">
-            <ul class="header__navbar--principal">
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="tienda.html"><li>Tienda</li></a>
-                <a href="beneficios.html"><li>Beneficios</li></a>
-                <li><a href="formulario.html"> Contactanos</a></li>
-                <a href="./nosotros.html"><li>Quienes Somos?</li></a>
-            </ul>
-        </nav></div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(255, 200, 80)">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="beneficios.html">Beneficios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Contactanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Quienes Somos?</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </header>
-<main class="main">
-<div>
-    <h3>Fernet Branca</h3>
-    <img src="/imagenes/fernet.jpg" alt="Fernet Branca">
-    <p>Un clasico aperitivo para cualquier momento del dia. A solo $1000</p>
+<main class="main-tienda">
+<div class="main-tienda-div">
+    <div class="card" style="width: 18rem;">
+        <img src="/imagenes/fernet.jpg" class="card-img-top" alt="Fernet Branca">
+        <div class="card-body">
+          <h5 class="card-title">Fernet Branca</h5>
+          <p class="card-text">Un clasico aperitivo para cualquier momento del dia. A solo $1000</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/imagenes/smirnoff.png" class="card-img-top" alt="Smirnoff">
+        <div class="card-body">
+          <h5 class="card-title">Smirnoff (original y saborizados)</h5>
+          <p class="card-text">El ideal de todas las previas. Conseguilo por $800</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/imagenes/cerveza.jfif" class="card-img-top" alt="Cerveza">
+        <div class="card-body">
+          <h5 class="card-title">Variedad de cervezas</h5>
+          <p class="card-text">La birra de todos los dias. Consulta por marcas, tenemos distintas variedades en marcas y gusto, con planchas de 24 latas desde $1800</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="/imagenes/vino.png" class="card-img-top" alt="Vinos">
+        <div class="card-body">
+          <h5 class="card-title">Variedad en vinos</h5>
+          <p class="card-text">Consulta por nuestra variedad en vinos. Tenemos vinos para preparar antes de ir al baile y hasta para degustar al dia siguiente con una buena comida</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+      </div>
 </div>
-<div>
-    <h3>Smirnoff (original y saborizados)</h3>
-    <img src="/imagenes/smirnoff.png" alt="Smirnoff">
-    <p>El ideal de todas las previas. Conseguilo por $800</p>
-</div>
-<div>
-    <h3>Variedad de cervezas</h3>
-    <img src="/imagenes/cerveza.jfif" alt="Cerveza">
-    <p>La birra de todos los dias. Consulta por marcas, tenemos distintas variedades en marcas y gusto, con planchas de 24 latas desde $1800</p>
-</div>
-<div>
-    <h3>Variedad en vinos</h3>
-    <img src="/imagenes/vino.png" alt="Vinos">
-    <p>Consulta por nuestra variedad en vinos. Tenemos vinos para preparar antes de ir al baile y hasta para degustar al dia siguiente con una buena comida</p>
-</div>
+
 </main>
 
 <footer class="footer">
@@ -55,6 +91,7 @@
     <p>Somos tu mejor opcion</p>
 </footer>
 </div>
+<script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
