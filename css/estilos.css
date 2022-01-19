@@ -3,6 +3,30 @@
     margin: 0px;
 }
 
+/*iconos*/
+.iconos{
+    display: flex;
+    flex-direction: column;
+}
+.bi{
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.bi-twitter{
+    color: rgb(93, 152, 207);
+
+}
+
+.bi-facebook{
+    color: rgb(68, 68, 235);
+
+}
+
+.bi-instagram{
+    color: crimson;
+}
+
 /**HEADER**/
 
 .header{
@@ -54,8 +78,8 @@
 }
 
 .tamanioimagen{
-    height: 200px;
-    width: 200px;
+    height: 20px;
+    width: 20px;
 }
 
 .header .navbar {
@@ -194,7 +218,7 @@ main{
 
 footer{
     grid-area: footer;
-    height: 100vh;
+    height: 5rem;
 }
 
 
@@ -219,10 +243,7 @@ aside{
     border-style: solid;
 }
 
-/* tamaño carousel*/
-.tamaniocarousel{
 
-}
 /*media queries*/
 @media only screen and (max-width: 748px){
 .querie{
