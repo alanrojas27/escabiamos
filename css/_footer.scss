@@ -1,0 +1,22 @@
+/*FOOTER*/
+
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(30,30,34,1) 35%, rgba(88,90,91,1) 100%);
+    ul{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        padding: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
