@@ -1,0 +1,16 @@
+.nuevoEstilo{
+    @extend .main;
+    font-style: italic;
+}
+
+
+/*mixin*/
+@mixin texto($fuente, $tamanio) {
+    font-family: $fuente;
+    font-size: $tamanio;
+}
+
+
+.nosotrosMain{
+    @include texto(impact, 2rem)
+}

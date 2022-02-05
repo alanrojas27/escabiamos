@@ -47,7 +47,7 @@ body {
 }
 
 /*MAIN*/
-.main {
+.main, .nuevoEstilo {
   background-color: #ebb26e;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -55,7 +55,7 @@ body {
   height: 100vh;
 }
 
-.main img {
+.main img, .nuevoEstilo img {
   height: 80vh;
 }
 
@@ -116,6 +116,35 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/*MAPS*/
+.facebook--red {
+  color: #3030cf;
+}
+
+.twitter--red {
+  color: #49aef1;
+}
+
+.instagram--red {
+  color: #ec2647;
+}
+
+/*map-get*/
+.caracter {
+  background-color: #c74d4d;
+  font-style: italic;
+}
+
+.nuevoEstilo {
+  font-style: italic;
+}
+
+/*mixin*/
+.nosotrosMain {
+  font-family: impact;
+  font-size: 2rem;
 }
 
 /*iconos*/
@@ -226,6 +255,18 @@ aside {
   background-color: #ebb26e;
   text-align: center;
   border-style: solid;
+}
+
+.nombre--tam {
+  size: 3rem;
+}
+
+.apellido--tam {
+  size: 3rem;
+}
+
+.email--tam {
+  size: 1rem;
 }
 
 /*media queries*/

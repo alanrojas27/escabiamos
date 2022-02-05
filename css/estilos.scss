@@ -7,6 +7,8 @@
 @import "header";
 @import "main";
 @import "footer";
+@import "maps";
+@import "extend";
 
 /*iconos*/
 .iconos{
@@ -101,6 +103,13 @@ aside{
 
 
 
+$mapLabels:(nombre: 3rem, apellido: 3rem, email: 1rem);
+
+@each $dato, $tamanio in $mapLabels {
+    .#{$dato}--tam {
+        size: $tamanio;
+    }
+}
 
 /*media queries*/
 @media only screen and (max-width: 748px){
