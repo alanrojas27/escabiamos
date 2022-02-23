@@ -42,7 +42,6 @@ body{
 
     @media (min-width: 1200px){
         @import "header","main","footer";
-        
         .ocultarDiv{
             display: none;
         }
@@ -57,7 +56,7 @@ body{
         .main{
             img{
                 width: 100%;
-                height: 600px;
+                height: 400px;
                 padding: 1rem;
             }
         }

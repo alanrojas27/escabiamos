@@ -15,8 +15,7 @@
     <title>Beneficios</title>
 </head>
 
-<div class="grid">
-<body>
+<body class="grid">
     <header class="header">
         <div class="logo">
             <div><img src="./imagenes/cervezahead.png" alt="logo" style="width: 60px;"></div>
@@ -36,9 +35,6 @@
                     <a class="nav-link" href="tienda.html">Tienda</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="beneficios.html">Beneficios</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="formulario.html">Contactanos</a>
                   </li>
                   <li class="nav-item">
@@ -49,26 +45,78 @@
             </div>
           </nav>
         </header>
+    
     <main class="main">
-    <form class="" action="">
-        <h3>Ingresa tu codigo de descuento</h3>
-        <label for="beneficio">Codigo</label>
-        <input type="text" name="beneficio" id="beneficio" size="40">
-        <input type="submit">
-    </form>
-    <div class="tamanio">
-      <img src="./imagenes/tarjetacredito.jpg" alt="tarjetas">
+      <div class="tiendaFlex">
+      <div class="tamanioProducto">
+        <h3>Fernet Branca</h3>
+        <img src="./imagenes/fernet.jpg" alt="Fernet">
+      </div>
+      <div class="tiendaFlex--div">
+        <h4>Seleccionar tamaño</h4>
+        <select name="tamanio" id="tamanio">
+        <option selected> Elegir tamaño</option>
+        <option value="500">500ml</option>
+        <option value="750ml">750ml</option>
+        <option value="1000ml">1LT</option>
+        </select>
+
+        <h4>Seleccionar cantidad</h4>
+        <select name="cantidad" id="cantidad">
+          <option selected>Seleccionar cantidad</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      
     </div>
-    <p>Aceptamos todas las tarjetas. Consultanos por cuotas sin interes</p>
-    <h4>Si compartis nuestras redes sociales tambien obtenes un 30% de descuento en tus compras</h4>
-    <div class="iconos">
-      <a href="twitter.com/escabiamos"><i class="bi bi-twitter">escabiamosOK</i></a>
-      <a href="facebook.com/escabiamos"><i class="bi bi-facebook">Escabiamos!</i></a>
-      <a href="instagram.com/escabiamos"><i class="bi bi-instagram">ESCABIAMOS</i></a>
-    </div>
+      
+      <h4>Otros productos</h4>
+
+      <div class="row cointeiner-fluid d-flex gap-3 main">
+        <div class="card mx-auto" style="width: 18rem">
+          <img src="./imagenes/smirnoff.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Smirnoff</h5>
+            <p class="card-text">El clasico rompecabezas en todos sus sabores</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+          </div>
+          <div class="card mx-auto" style="width: 18rem">
+            <img src="./imagenes/fernet.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Fernet Branca</h5>
+              <p class="card-text">El unico en su especie. Irremplazable y adecuado para todo momento. Disponible en todos sus tamaños</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        
+
+          <div class="card mx-auto" style="width: 18rem">
+            <img src="./imagenes/cerveza.jfif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cervezas</h5>
+              <p class="card-text">Consulta por todas las marcas de cervezas, desde industriales hasta artesanales</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+      </div>
+
     </main>
 
-    <footer class="footer">
+
+
+
+    <footer class="footer row-cols-12">
       <div class="footer__div1">
         <h4>Seguinos</h4>
         <div>
@@ -87,7 +135,7 @@
         <p>Calle Falsa 123</p>
       </div>
     </footer>
-</div>
+
 <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

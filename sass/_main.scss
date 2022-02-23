@@ -47,3 +47,70 @@
     background-color: rgb(235, 178, 110);
     background: linear-gradient(175deg, rgba(250,131,12,1) 0%, rgba(236,187,40,1) 35%, rgba(255,183,0,1) 100%);
 }
+
+
+.section{
+    background-image: url("/imagenes/brindis.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    
+    p{
+        color: rgb(19, 19, 12);
+        font-size: 5rem;
+        font-style: oblique;
+        padding-left: 1rem;
+        font-family: fantasy;
+    }
+    button{
+        width: 8rem;
+        height: 8rem;
+        background-color: transparent;
+        border: none;
+        text-transform: uppercase;
+        font-size: 3rem;
+        padding-left: 5rem;
+        color: rgb(252, 233, 233);
+        font-family: fantasy;
+        font-style: oblique;
+    }
+    section{
+        padding-top: 20rem;
+    }
+
+
+}
+
+.div--beneficios{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+}
+
+.tamanioProducto{
+    width: 400px;
+    height: 500px;
+}
+
+.tiendaFlex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tiendaFlex--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+h4{
+    text-align: center;
+}
+.nuevoEstilo{
+height: 40vh;
+}
+
+.mainNosotros{
+    height: 40vh;
+}

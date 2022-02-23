@@ -17,16 +17,10 @@
   <body>
     <div>
       <header class="header">
-        <div class="logo">
-          <div>
-            <img
-              src="./imagenes/cervezahead.png"
-              alt="logo"
-              style="width: 60px"
-            />
-          </div>
+        <a href="./index.html"><div class="logo container">
+          <div><img src="./imagenes/cervezahead.png" alt="logo"></div>
           <h1>Escabiamos!</h1>
-        </div>
+        </div></a>
         <nav
           class="navbar navbar-expand-lg navbar-light"
           style="background-color: rgb(255, 200, 80)"
@@ -46,18 +40,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >Inicio</a
-                  >
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="beneficios.html">Beneficios</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="formulario.html">Contactanos</a>
@@ -73,62 +59,123 @@
 
       
       <main class="main__tienda">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <h3>Nuestras mejores birras</h3>
+      <div class="row cointeiner-fluid d-flex gap-3 main">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/heineken.jpg" class="card-img-top" alt="heineken">
+          <div class="card-body">
+            <h5 class="card-title">Heineken</h5>
+            <p class="card-text">La mejor cerveza industrial del mercado. Clasica para ver el futbol del domingo</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/stella.jpg" class="card-img-top" alt="Stella Artois">
+          <div class="card-body">
+            <h5 class="card-title">Stella Artois</h5>
+            <p class="card-text">La cerveza perfecta para disfrutar de una previa o un buen asado</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/patagonia.jpg" class="card-img-top" alt="Patagonia Weisse">
+          <div class="card-body">
+            <h5 class="card-title">Patagonia Weisse</h5>
+            <p class="card-text">Si bien somos muy fanaticos de toda la familia patagonia y ademas contamos con stock de todas sus variedades, ponemos en el apartado de recomendadas esta belleza
+              cuenta con un aroma y gusto citrico ideal para una salida tranquila disfrutando de un buen paisaje
+            </p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/miller.jpg" class="card-img-top" alt="Miller">
+          <div class="card-body">
+            <h5 class="card-title">Miller</h5>
+            <p class="card-text">La birra ideal para cualquier comida. De gusto suave y refrescante</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <h3>Bebidas variadas</h3>
+
+        <div class="row cointeiner-fluid d-flex gap-3 main">
           <div class="card mx-auto" style="width: 18rem">
             <img src="./imagenes/smirnoff.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <p class="card-text">
-                Smirnoff x 1lts.
-              </p>
+              <h5 class="card-title">Smirnoff</h5>
+              <p class="card-text">El clasico rompecabezas en todos sus sabores</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
             </div>
             <div class="card mx-auto" style="width: 18rem">
               <img src="./imagenes/fernet.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text">
-                  Fernet x 1lts
-                </p>
+                <h5 class="card-title">Fernet Branca</h5>
+                <p class="card-text">El unico en su especie. Irremplazable y adecuado para todo momento. Disponible en todos sus tamaños</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
 
             <div class="card mx-auto" style="width: 18rem">
               <img src="./imagenes/cerveza.jfif" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text">
-                  Variedad de cervezas
-                </p>
+                <h5 class="card-title">Cervezas</h5>
+                <p class="card-text">Consulta por todas las marcas de cervezas, desde industriales hasta artesanales</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
 
           <div class="card mx-auto" style="width: 18rem">
             <img src="./imagenes/vino.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <p class="card-text">
-                Variedad de vinos
-              </p>
+              <h5 class="card-title">Variedad de vinos</h5>
+              <p class="card-text">Consulta por la variedad en vinos, contamos con los vinos economicos hasta una amplia variedad de vinos finos de buena cosecha de la mano de las mejores bodegas</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
+        <div class="div--beneficios">
+          <h2>BENEFICIOS</h2>
+        <form class="" action="">
+          <h3>Ingresa tu codigo de descuento</h3>
+          <label for="beneficio">Codigo</label>
+          <input type="text" name="beneficio" id="beneficio" size="40">
+          <input type="submit">
+      </form>
+      <h3>Queres ser parte de nuestro club?</h3>
+      <p>Contamos con un servicio de membresia donde podras acceder a descuentos todos los dias, cataciones de vinos todos los meses y hasta regalos por cada compra que hagas.
+        No dudes en consultarnos por cualquiera de nuestras redes, o acercate a nuestro local y consulta por este beneficio.
+      </p>
+    </div>
       </main>
 
       <footer class="footer">
-        <div class="footer__div1">
-          <h4>Seguinos</h4>
-          <div>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-          </div>
-        </div>
-        <div>
-          <p>Derechos Reservados</p>
-          <p>Somos tu mejor opcion</p>
-        </div> 
+      
+
         <div class="footer__div2">
           <h4>Llamanos</h4>
           <p>0123-456789456123</p>
           <p>Calle Falsa 123</p>
         </div>
+  
+        <div>
+          <p>Derechos Reservados</p>
+          <p>Somos tu mejor opcion</p>
+        </div> 
+  
+        <div class="footer__div1">
+        <h4>Seguinos</h4>
+        <div>
+          <a href="http://facebook.com"><i class="bi bi-facebook"></i></a>
+          <a href="http://instagram.com"><i class="bi bi-instagram"></i></a>
+          <a href="http://twitter.com"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
       </footer>
     </div>
     <script src="./js/bootstrap.min.js"></script>
