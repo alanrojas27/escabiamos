@@ -13,8 +13,53 @@ body{
 
 @media (max-width: 576px) {
 @import "header","main","footer";
+.mainNosotros{
+    height: 50vh;
+}
+.nuevoEstilo{
+    height: 20vh;
+}
+.section{
+    background-position-x: center;
+}
 .ocultarMovil{
     display:none;
+}
+.main__tienda{
+    flex-direction: column;
+    
+
+    img{
+        width: 300px;
+        height:300px;
+    }
+}
+.card{
+    .width{
+        width: 3rem;
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "footer";
+    header{
+        grid-area: header;
+    }
+    main{
+        grid-area: main;
+    }
+    aside{
+        grid-area: aside;
+    }
+    footer{
+        grid-area: footer;
+    }
 }
 
 }
